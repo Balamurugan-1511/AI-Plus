@@ -1,7 +1,8 @@
-# SkandaPlus
+# AI-Plus
 
-An AI and IT training institute platform built with Next.js — course catalog, blog, job board, enrollment and payment tracking, and an admin dashboard for managing content and applications.
+An AI and IT training institute platform built with Next.js by SkandaPlus — course catalog, blog, job board, enrollment and payment tracking, and an admin dashboard for managing content and applications.
 
+Live Demo:
 
 ## Features
 
@@ -38,7 +39,7 @@ An AI and IT training institute platform built with Next.js — course catalog, 
 
 2. Install dependencies:
    ```bash
-   npm install
+   npm install                # install all dependencies
    ```
    This also runs `prisma generate` automatically via `postinstall`.
 
@@ -76,6 +77,16 @@ ADMIN_EMAILS=
 ```
 
 > **Note:** Use your database provider's *connection pooling* URL for `DATABASE_URL` if deploying to a serverless platform (Netlify, Vercel) — direct connection strings can hit connection limits under serverless load.
+
+## Prisma / Database Commands
+
+| Command | Description |
+|---|---|
+| `npx prisma generate` | Generate Prisma Client from `schema.prisma`. Run this after ANY schema change. |
+| `npx prisma db push` | Push `schema.prisma` to your DB (create/update tables). Use when you changed the schema and want the DB to match. |
+| `npx prisma db pull` | Pull the DB structure into `schema.prisma` (reverse of push). Use when the DB was changed directly (e.g. via Supabase UI) and you want `schema.prisma` to catch up. |
+| `npx prisma studio` | Opens a visual DB browser at `localhost:5555` to view/edit rows directly. |
+| `npm run seed` | Runs `prisma/seed.js` — inserts sample/starter data. |
 
 ## Available Scripts
 
@@ -123,4 +134,4 @@ This project is configured for deployment on **Netlify** using the Next.js Runti
 
 ## License
 
-Private — all rights reserved.
+Private — © SkandaPlus. All rights reserved.
