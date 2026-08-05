@@ -1,6 +1,6 @@
 # AI-Plus
 
-An AI and IT training institute platform built with Next.js by SkandaPlus — course catalog, blog, job board, enrollment and payment tracking, and an admin dashboard for managing content and applications.
+An AI and IT training institute platform built with Next.js , SkandaPlus — course catalog, blog, job board, enrollment and payment tracking, and an admin dashboard for managing content and applications.
 
 Live Demo: https://ai-plus-rcf1.vercel.app/
 
