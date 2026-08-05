@@ -2,7 +2,7 @@
 
 An AI and IT training institute platform built with Next.js by SkandaPlus — course catalog, blog, job board, enrollment and payment tracking, and an admin dashboard for managing content and applications.
 
-Live Demo:
+Live Demo: https://ai-plus-rcf1.vercel.app/
 
 ## Features
 
@@ -132,6 +132,6 @@ This project is configured for deployment on **Netlify** using the Next.js Runti
 3. Add all environment variables listed above in **Site settings → Environment variables**.
 4. Deploy.
 
-## License
+## contribution
 
-Private — © SkandaPlus. All rights reserved.
+Balamurugan P
